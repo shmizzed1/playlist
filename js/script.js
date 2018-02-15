@@ -49,7 +49,15 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  
+	
+	var inputs = {
+		title: $("#title").val(),
+		artists: "lol",
+		length: "lol",
+		imageurl: "lol",
+	};
+$('body').append("<p>" + input.artists + "</p>");
+
 
 
 
