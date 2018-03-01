@@ -50,21 +50,31 @@ var myPlayList = [
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
 	
-	var inputs = {
+	
+	$("button").click(function() {
+  var inputs = {
 		title: $("#title").val(),
 		artists: "lol",
-		length: "lol",
+		lengths: "lol",
 		imageurl: "lol",
 	};
-$('body').append("<p>" + input.artists + "</p>");
-
-
-
+	$('body').append(input[0].title);
+  	$('body').append(input[0].artists);
+	$('body').append(input[0].lengths);
+	$('body').append(input[0].imageurl);
+	
+});
+	
 
 });
 
-function displayList(){
+$('.songs').append(myPlayList[0].title);
+$('.songs').append(myPlayList[0].artist);
 
+$('a').attr(href, myPlayList[0].mp3-url);
+
+
+function displayList(){
 
   
 }
