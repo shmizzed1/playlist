@@ -49,27 +49,14 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
+
+$(".songs").append(mySong + "Hiiii" + "<br>")
 	
 	
-	$("button").click(function() {
-  var inputs = {
-		title: $("#title").val(),
-		artists: "lol",
-		lengths: "lol",
-		imageurl: "lol",
-	};
-	$('body').append(input[0].title);
-  	$('body').append(input[0].artists);
-	$('body').append(input[0].lengths);
-	$('body').append(input[0].imageurl);
 	
 });
 	
 
-});
-
-$('.songs').append(myPlayList[0].title);
-$('.songs').append(myPlayList[0].artist);
 
 $('a').attr(href, myPlayList[0].mp3-url);
 
