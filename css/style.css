@@ -1,3 +1,42 @@
 body{
-    background-color: lightblue;
+    background-color: Black;
 }
+
+.songs {
+    height:300px;
+    width: 300px;
+}
+
+p {
+    text-align: center;
+    font-family: Arial;
+     color: white;
+}
+
+h2{
+   text-align: center;
+   font-family: Arial;
+   color: white;
+}
+
+a {
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+
+div{
+    margin: auto;
+}
+
+#inputs{
+     text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+      color: white;
+}
+
+
