@@ -72,7 +72,7 @@ function displayList(){
 	        $('.songs').append('<h2>' + myPlayList[i].title +'<h2>');
 	        $('.songs').append('<p>' + myPlayList[i].artist +'<p>');
 	    	var linky = myPlayList[i].mp3url;
-	        $('.songs').append('<div> <a href =' + linky + '>Click here for a listen</a> </div>');
+	        $('.songs').append('<div> <a href =' + linky + '>Click here for a listen </a> </div>');
 	        var pic =   myPlayList[i].imageurl ;
 	        $('.songs').append('<img src =' + pic + ' height="300" width="300" > ');
 	    }
